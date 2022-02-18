@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2nT2tG9RoHuvJsapPV8U7ydIeV4HZzNXwCwWFlsR5kqzJeL+OeQbiamoj2je8KIhqA4lJF36QQoTUoZHEN+Rlw==",
+  "success": true,
+  "projectFilePath": "D:\\Univalle Provisional\\Github\\Sockets_C-_WPF\\ServerSocketConnection\\ServerSocketConnection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ferna\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ferna\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "367f506c-4852-43e7-ae54-78ba411ebc93": {
+      "ProjectGuid": "367f506c-4852-43e7-ae54-78ba411ebc93",
+      "DisplayName": "ClientSocketConnection",
+      "ColorIndex": 0
+    },
+    "a7cb66a3-8aff-4315-ac79-4fb9c9e30cab": {
+      "ProjectGuid": "a7cb66a3-8aff-4315-ac79-4fb9c9e30cab",
+      "DisplayName": "ServerSocketConnection",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,20 @@
+﻿<Window x:Class="CSharp_InterconnectionProccess_ClientServer_Sockets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSharp_InterconnectionProccess_ClientServer_Sockets"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="286" Width="500">
+    <Grid>
+        <Label x:Name="label" Content="CLIENT SOCKET" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btn_ConnectServer" Content="Connect to server" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Width="118" Click="btn_ConnectServer_Click"/>
+        <Button x:Name="btn_Disconnect" Content="Disconnect Server" HorizontalAlignment="Center" Margin="0,83,0,0" VerticalAlignment="Top" Width="118" Click="btn_Disconnect_Click"/>
+        <TextBox x:Name="txt_Send" HorizontalAlignment="Left" Margin="37,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="82"/>
+        <TextBox x:Name="txtReceive" HorizontalAlignment="Left" Margin="276,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="82"/>
+        <Label x:Name="label1" Content="Message to send" HorizontalAlignment="Left" Margin="81,112,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Message Received" HorizontalAlignment="Left" Margin="317,112,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Send" Content="Send" HorizontalAlignment="Left" Margin="105,222,0,0" VerticalAlignment="Top" Width="56" Click="btn_Send_Click"/>
+        <TextBlock x:Name="txtb_Status" HorizontalAlignment="Left" Margin="364,49,0,0" TextWrapping="Wrap" Text="No Connected" VerticalAlignment="Top" Height="48" Width="100"/>
+    </Grid>
+</Window>
